@@ -4,10 +4,10 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
-           SELECT PRINT-LINE ASSIGN    PRTLINE
-                             STATUS    PRT-ST.
-           SELECT ACCT-REC   ASSIGN    ACCTREC
-                             STATUS    ACCT-ST.
+           SELECT PRINT-LINE ASSIGN  TO  PRTLINE
+                             STATUS      PRT-ST.
+           SELECT ACCT-REC   ASSIGN  TO  ACCTREC
+                             STATUS      ACCT-ST.
        DATA DIVISION.
        FILE SECTION.
        FD  PRINT-LINE RECORDING MODE F.
